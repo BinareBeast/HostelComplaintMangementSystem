@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".stflogin">
+
+    <EditText
+        android:id="@+id/em"
+        android:layout_width="317dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:hint="  email"
+        android:padding="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="49dp"
+        android:drawableStart="@drawable/outline_mail_24"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/ph"
+        android:layout_marginLeft="40dp"
+        android:layout_width="317dp"
+        android:layout_height="70dp"
+        android:drawableStart="@drawable/outline_contact_phone_24"
+        android:ems="10"
+        android:padding="20dp"
+        android:hint="   phone"
+        android:inputType="phone"
+        />
+
+    <EditText
+        android:id="@+id/pd"
+        android:layout_width="317dp"
+        android:layout_height="68dp"
+        android:ems="10"
+        android:padding="20dp"
+        android:hint="   password"
+        android:layout_marginLeft="40dp"
+        android:drawableStart="@drawable/outline_lock_24"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        >
+        <TextView
+            android:id="@+id/rbtn"
+            android:layout_width="130dp"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:layout_marginLeft="6dp"
+            android:text="Register  "
+            android:textColor="#2E3FD3"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/fp"
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:drawableStart="@drawable/baseline_refresh_24"
+            android:gravity="center"
+            android:layout_marginLeft="20dp"
+            android:textSize="17dp"
+            android:text="   Forget Password"
+            android:textColor="#2E3FD3"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/pb"
+        />
+    <Button
+        android:id="@+id/lbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="8dp"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="387dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>

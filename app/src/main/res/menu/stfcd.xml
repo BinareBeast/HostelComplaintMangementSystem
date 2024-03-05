@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/elog"
+        android:title="Electic log"
+        android:icon="@drawable/outline_electric_bolt_24"/>
+
+    <item android:id="@+id/clog"
+        android:title="Carpenter log"
+        android:icon="@drawable/baseline_sensor_door_24"
+        />
+    <item android:id="@+id/plog"
+        android:title="Plumbing log"
+        android:icon="@drawable/twotone_plumbing_24"
+        />
+</menu>

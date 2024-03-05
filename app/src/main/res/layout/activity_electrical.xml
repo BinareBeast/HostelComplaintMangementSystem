@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".electrical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:autoSizeTextType="uniform"
+        android:layout_margin="29dp"
+        android:fontFamily="@font/biorhyme_bold"
+        android:gravity="center"
+        android:text="Electrical complaint register" />
+
+    <EditText
+        android:id="@+id/rn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:drawableStart="@drawable/baseline_edit_note_24"
+        android:gravity="center_vertical"
+        android:hint="  Roll no"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/baseline_edit_note_24"
+        android:gravity="center_vertical"
+        android:hint="  Name"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/rm"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/outline_bedroom_parent_24"
+        android:gravity="center_vertical"
+        android:hint="  Room no"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/hst"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/outline_home_work_24"
+        android:gravity="center_vertical"
+        android:hint="  Hostel"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/dsp"
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/baseline_edit_note_24"
+        android:hint="  Discriptioin"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/st"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="13dp"
+        android:text="SUBMIT"
+        android:textSize="19dp"
+        android:textStyle="bold" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

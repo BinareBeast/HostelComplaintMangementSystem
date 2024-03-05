@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".plumbing">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:autoSizeTextType="uniform"
+        android:layout_margin="29dp"
+        android:fontFamily="@font/biorhyme_bold"
+        android:gravity="center"
+        android:text="Plumbing complaint register" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint= "  Roll no"
+        android:textSize="20dp"
+        android:id="@+id/rn"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_marginTop="70dp"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/baseline_edit_note_24"
+        android:layout_gravity="center" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:drawableStart="@drawable/baseline_edit_note_24"
+        android:gravity="center_vertical"
+        android:hint="  Name"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textSize="20dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="  Hostel"
+        android:textSize="20dp"
+        android:id="@+id/hst"
+        android:maxLines="1"
+        android:lines="1"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:drawableStart="@drawable/outline_home_work_24"
+        android:layout_gravity="center" />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="130dp"
+        android:hint="  Brief Discriptioin"
+        android:textSize="20dp"
+        android:id="@+id/dsp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/baseline_edit_note_24"
+        android:layout_gravity="center" />
+    <Button
+        android:layout_width="170dp"
+        android:layout_marginTop="43dp"
+        android:layout_height="60dp"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:layout_gravity="center"
+        android:id="@+id/st"
+        android:text="SUBMIT"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

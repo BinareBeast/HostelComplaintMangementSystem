@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="Student"
+    android:id="@+id/stl"
+    android:icon="@drawable/outline_groups_2_24"/>
+<item
+    android:title="Staff"
+    android:id="@+id/stfl"
+    android:icon="@drawable/outline_account_box_24"/>
+</menu>

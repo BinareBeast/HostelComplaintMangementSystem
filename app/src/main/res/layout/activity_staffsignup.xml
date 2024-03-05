@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".staffsignup">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:text="Staff Signup"
+        android:layout_margin="29dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:fontFamily="@font/biorhyme_bold"/>
+    <EditText
+        android:id="@+id/nme"
+        android:layout_width="317dp"
+        android:layout_height="65dp"
+        android:drawableStart="@drawable/baseline_edit_note_24"
+        android:ems="10"
+        android:layout_marginLeft="40dp"
+        android:padding="20dp"
+        android:hint="   name"
+        android:inputType="text"
+        android:layout_marginTop="7dp"
+        tools:ignore="MissingConstraints"
+        />
+
+
+    <EditText
+        android:id="@+id/em"
+        android:layout_width="317dp"
+        android:layout_height="68dp"
+        android:drawableStart="@drawable/outline_mail_24"
+        android:ems="10"
+        android:hint="  email"
+        android:inputType="textEmailAddress"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="40dp"
+
+        />
+
+    <EditText
+        android:id="@+id/ph"
+        android:layout_marginLeft="40dp"
+        android:layout_width="317dp"
+        android:layout_height="70dp"
+        android:drawableStart="@drawable/outline_contact_phone_24"
+        android:ems="10"
+        android:padding="20dp"
+        android:hint="   phone"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="276dp" />
+    <EditText
+        android:id="@+id/dsg"
+        android:layout_marginLeft="40dp"
+        android:layout_width="317dp"
+        android:layout_height="70dp"
+        android:drawableStart="@drawable/outline_account_box_24"
+        android:ems="10"
+        android:padding="20dp"
+        android:hint="   Desigination"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <EditText
+        android:id="@+id/ht"
+        android:layout_width="317dp"
+        android:layout_height="65dp"
+        android:padding="20dp"
+        android:drawableStart="@drawable/outline_home_work_24"
+        android:ems="10"
+        android:layout_marginLeft="40dp"
+        android:hint="   hostel" />
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="317dp"
+        android:layout_height="75dp"
+        android:drawableStart="@drawable/outline_lock_24"
+        android:ems="10"
+        android:hint="   password"
+        android:inputType="textPassword"
+        android:layout_marginLeft="40dp"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/pb"
+        />
+    <Button
+        android:id="@+id/sbtn"
+        android:layout_width="125dp"
+        android:layout_height="57dp"
+        android:text="Signup"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="140dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+
+    <TextView
+        android:id="@+id/slogin"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="already an user? CLICK HERE 👈 "
+        android:textSize="18dp" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
